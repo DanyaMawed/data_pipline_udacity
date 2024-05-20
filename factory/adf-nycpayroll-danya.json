@@ -1,0 +1,17 @@
+{
+	"name": "adf-nycpayroll-danya",
+	"properties": {
+		"globalConfigurations": {
+			"factoryStagingLSReferenceName": "ls_azuredatastorage",
+			"factoryStagingLSType": "LinkedServiceReference",
+			"factoryStagingFolderPath": "adlsnycpayroll-danya-m/dirstaging",
+			"PipelineBillingEnabled": "true"
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "49f2da48-7599-477c-a483-72ec05ce0881",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
